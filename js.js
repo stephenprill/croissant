@@ -428,11 +428,11 @@ function update() {
 }
 
 function render() {
-    for (var i = 0; i < greenEnemies.length; i++)
-    {
-        game.debug.body(greenEnemies.children[i]);
-    }
-    game.debug.body(player);
+    // for (var i = 0; i < greenEnemies.length; i++)
+    // {
+    //     game.debug.body(greenEnemies.children[i]);
+    // }
+    // game.debug.body(player);
 }
 
 function fireBullet() {
